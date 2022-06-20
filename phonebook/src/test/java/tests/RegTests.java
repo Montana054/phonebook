@@ -2,7 +2,7 @@ package tests;
 
 import org.testng.annotations.Test;
 
-public class Registration extends TestBase{
+public class RegTests extends TestBase{
     @Test
     public void registrationSuccess() {
 

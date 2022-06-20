@@ -1,5 +1,6 @@
 package tests;
 
+import manager.AplicationManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,17 +14,17 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
 
 
-    WebDriver wd;
+ protected static AplicationManager app=new AplicationManager();//инецилезация -ссылка на аликатион менеджер
+
+
 @BeforeMethod
-public void init() {
-    wd = new ChromeDriver();
-    wd.manage().window().maximize();
-    wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);// не явное ожидание в течение 10 сек ждет отрисовки элементов
-    wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/");
+public void setUp() {
+   app.inIt();// через апп
+
 }
   @AfterMethod
   public void tearDown() {
-      wd.quit();
+     app.stop();
   }
     public void type(By locator, String text) {
         if (text != null) {
