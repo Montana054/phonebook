@@ -25,8 +25,13 @@ public class HelperUser extends HelperBase {
         click(By.xpath("//*[text()=' Login']"));
     }
 
-    public boolean isLoginSuccess()
+    public boolean isLoginRegSuccess()
     {
         return isElementPresent(By.xpath("//*[text()='Sign Out']"));
+    }
+
+    public void submitReg()
+    {
+        click(By.xpath("//button[2]"));
     }
 }

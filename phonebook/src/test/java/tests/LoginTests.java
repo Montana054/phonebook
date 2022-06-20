@@ -9,6 +9,6 @@ public class LoginTests extends TestBase {
         app.getHelperUser().openRegLogform();
         app.getHelperUser().fillLogRegForm("noa@gmail.com", "Nnoa12345$");
         app.getHelperUser().submitLogin();
-        Assert.assertTrue(app.getHelperUser().isLoginSuccess());
+        Assert.assertTrue(app.getHelperUser().isLoginRegSuccess());
     }
 }

@@ -19,7 +19,7 @@ public class AplicationManager {
     }
 
     public void stop() {
-        wd.quit();
+       // wd.quit();
     }
 
     public HelperUser getHelperUser()// 3 гетер
