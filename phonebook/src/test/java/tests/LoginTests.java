@@ -4,15 +4,12 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginTests extends TestBase
-{
+public class LoginTests extends TestBase {
     @Test
-    public void loginSuccessNew()
-    {
-        clickE(By.xpath("//*[@href='/login']"));
-        type(By.xpath("//input[1]"),"noa@gmail.com");
-        type(By.xpath("//input[2]"),"Nnoa12345$");
-        clickE(By.xpath("//*[text()=' Login']"));
+    public void loginSuccessNew() {
+        app.getHelperUser().openRegLogform();
+        app.getHelperUser().fillLogRegForm("noa@gmail.com", "Nnoa12345$");
+        app.getHelperUser().submitLogin();
         Assert.assertTrue(isElementPresent(By.xpath("//*[text()='Sign Out']")));
     }
 }
