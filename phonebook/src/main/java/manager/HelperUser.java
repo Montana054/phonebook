@@ -9,29 +9,29 @@ public class HelperUser extends HelperBase {
         super(wd);
     }
 
-    public void openRegLogform()
-    {
+    public void openRegLogform() {
         click(By.xpath("//*[@href='/login']"));
     }
 
-    public void fillLogRegForm(String email, String password)
-    {
+    public void fillLogRegForm(String email, String password) {
         type(By.xpath("//input[1]"), email);
         type(By.xpath("//input[2]"), password);
     }
 
-    public void submitLogin()
-    {
+    public void submitLogin() {
         click(By.xpath("//*[text()=' Login']"));
     }
 
-    public boolean isLoginRegSuccess()
-    {
+    public boolean isSingOutPresent() {
         return isElementPresent(By.xpath("//*[text()='Sign Out']"));
     }
 
-    public void submitReg()
-    {
+    public void submitReg() {
         click(By.xpath("//button[2]"));
+    }
+
+
+    public void singOut() {
+        click(By.xpath("//*[text()='Sign Out']"));
     }
 }
