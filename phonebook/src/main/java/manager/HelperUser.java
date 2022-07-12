@@ -70,4 +70,6 @@ public class HelperUser extends HelperBase {
 //        alert.sendKeys("hello");
         return error.contains("Wrong email or password format");
     }
+
+
 }
