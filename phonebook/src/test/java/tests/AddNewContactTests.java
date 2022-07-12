@@ -7,17 +7,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AddNewContactTests extends TestBase {
+
     @BeforeMethod
     public void preCondition() {
-        if (app.getHelperUser().isSingOutPresent() != true) {
-            Users users = new Users().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
-            app.getHelperUser().openRegLogform();
-            app.getHelperUser().fillLogRegForm(users);
-            app.getHelperUser().submitLogin();
-            Assert.assertTrue(app.getHelperUser().isSingOutPresent());
+        if (!app.getHelperUser().isSingOutPresent()) {
+            app.getHelperUser().login(new Users().withEmail("noa@gmail.com").withPassword("Nnoa12345$"));
+
         }
     }
-
     @Test
     public void addNewContactSuccess() {
         int index = (int) (System.currentTimeMillis() / 1000) % 3600;
@@ -29,11 +26,15 @@ public class AddNewContactTests extends TestBase {
                 .address("Tel aviv")
                 .description("bulibulibum")
                 .build();
+        System.out.println(contact.getName());
+        System.out.println(contact.getPhone());
+
         app.getContactHelper().openAddForm();
         app.getContactHelper().fillAddFrom(contact);
-       // app.getContactHelper().save();
+     // app.getContactHelper().save();
         app.getContactHelper().clickSaveByXY();
-
+Assert.assertTrue(app.getContactHelper().isContactByName(contact.getName()));
+Assert.assertTrue(app.getContactHelper().isContactByPhone(contact.getPhone()));
     }
 
 }

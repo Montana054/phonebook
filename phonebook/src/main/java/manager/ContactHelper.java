@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import java.util.List;
+
 public class ContactHelper extends HelperBase{
 
     public ContactHelper(WebDriver wd) {
@@ -29,9 +31,9 @@ public class ContactHelper extends HelperBase{
 
     }
 
-    public void save() {
-        click(By.xpath("//*[text()='Save']"));
-    }
+//    public void save() {
+//        click(By.cssSelector(".add_from--2rsm2 button"));
+//    }
 
     public void clickSaveByXY()
     {
@@ -43,4 +45,27 @@ public class ContactHelper extends HelperBase{
         actions.moveToElement(button).release().perform();
         actions.moveByOffset(-offSetX,-offSetY).click().release().perform();
     }
+
+    public boolean isContactByName(String name)
+    {
+        List<WebElement> list =wd.findElements(By.cssSelector("h2"));
+        for (WebElement el:list)
+        {
+        if(el.getText().equals(name))
+            return true;
+        }
+return false;
+    }
+
+    public boolean isContactByPhone(String phone)
+    {
+      List<WebElement> list =wd.findElements(By.cssSelector("h3"));
+        for (WebElement el:list)
+        {
+if (el.getText().equals(phone))
+    return true;
+        }
+        return false;
+    }
+
 }
