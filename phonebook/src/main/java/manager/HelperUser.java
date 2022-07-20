@@ -62,7 +62,7 @@ public class HelperUser extends HelperBase {
     Alert alert= new WebDriverWait(wd,10).until(ExpectedConditions.alertIsPresent());
     wd.switchTo().alert();
     String error= alert.getText();
-    System.out.println(error);
+        //System.out.println(error);
          // ok
            alert.accept();
 //            //conect

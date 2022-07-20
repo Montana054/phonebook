@@ -20,6 +20,8 @@ public class RegTests extends TestBase {
     {
         int index = (int) (System.currentTimeMillis() / 1000) % 3600;
         Users users=new Users().withEmail("sdsd3" + index + "@ww.com").withPassword("Za1234$4");
+        logger.info("sdsd3" + index + "@ww.com");
+        logger.info("INDEX-->"+index);
 
         app.getHelperUser().openRegLogform();
         app.getHelperUser().fillLogRegForm(users);

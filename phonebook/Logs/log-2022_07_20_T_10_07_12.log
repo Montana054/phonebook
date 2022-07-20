@@ -1,0 +1,81 @@
+10:07:15.726 INFO   manager.AplicationManager - tests start in ChromeDriver
+10:07:16.758 INFO   manager.AplicationManager - The linc is -->https://contacts-app.tobbymarshall815.vercel.app/home
+10:07:16.843 INFO   tests.TestBase - start test --->addNewContactSuccess
+10:07:16.863 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:07:21.937 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:07:21.939 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@href='/login']
+10:07:21.972 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@href='/login'] ,--- was found
+10:07:22.092 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[1]
+10:07:22.133 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[1] ,--- was found
+10:07:22.357 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[2]
+10:07:22.392 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[2] ,--- was found
+10:07:22.577 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()=' Login']
+10:07:22.602 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()=' Login'] ,--- was found
+10:07:22.675 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:07:23.437 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:07:23.454 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //a[@href='/add']
+10:07:23.475 INFO   manager.MyListener - the element with locator ---> By.xpath: //a[@href='/add'] ,--- was found
+10:07:23.567 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@placeholder='Name']
+10:07:23.602 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@placeholder='Name'] ,--- was found
+10:07:23.790 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@placeholder='Last Name']
+10:07:23.815 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@placeholder='Last Name'] ,--- was found
+10:07:23.978 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@placeholder='Phone']
+10:07:23.998 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@placeholder='Phone'] ,--- was found
+10:07:24.179 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@placeholder='email']
+10:07:24.204 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@placeholder='email'] ,--- was found
+10:07:24.402 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@placeholder='Address']
+10:07:24.426 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@placeholder='Address'] ,--- was found
+10:07:24.583 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@placeholder='description']
+10:07:24.612 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@placeholder='description'] ,--- was found
+10:07:24.788 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Save']
+10:07:24.816 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Save'] ,--- was found
+10:07:25.222 INFO   manager.MyListener - 'Start finde' element ---> By.cssSelector: h2
+10:07:25.629 INFO   manager.MyListener - the element with locator ---> By.cssSelector: h2 ,--- was found
+10:07:25.715 INFO   manager.MyListener - 'Start finde' element ---> By.cssSelector: h3
+10:07:25.739 INFO   manager.MyListener - the element with locator ---> By.cssSelector: h3 ,--- was found
+10:07:25.832 INFO   tests.TestBase - start test --->loginNegariveTestWronPassword
+10:07:25.833 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:07:25.858 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:07:25.859 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:07:25.876 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:07:25.928 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@href='/login']
+10:07:25.954 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@href='/login'] ,--- was found
+10:07:25.998 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[1]
+10:07:26.016 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[1] ,--- was found
+10:07:26.169 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[2]
+10:07:26.190 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[2] ,--- was found
+10:07:26.305 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()=' Login']
+10:07:26.332 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()=' Login'] ,--- was found
+10:07:26.387 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:07:26.530 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:07:26.636 INFO   tests.TestBase - start test --->loginSuccessNew
+10:07:26.638 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:07:31.664 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:07:31.666 INFO   tests.TestBase - Test start with email : 'noa@gmail.com' and password 'Nnoa12345$' 
+10:07:31.667 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@href='/login']
+10:07:31.701 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@href='/login'] ,--- was found
+10:07:31.753 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[1]
+10:07:31.771 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[1] ,--- was found
+10:07:31.967 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[2]
+10:07:31.988 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[2] ,--- was found
+10:07:32.171 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()=' Login']
+10:07:32.193 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()=' Login'] ,--- was found
+10:07:32.253 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:07:32.584 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:07:32.587 INFO   tests.TestBase - start test --->registrationSuccess
+10:07:32.588 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:07:32.626 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:07:32.627 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:07:32.646 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:07:32.701 INFO   tests.TestBase - sdsd3452@ww.com
+10:07:32.702 INFO   tests.TestBase - INDEX-->452
+10:07:32.703 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@href='/login']
+10:07:32.729 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@href='/login'] ,--- was found
+10:07:32.788 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[1]
+10:07:32.804 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[1] ,--- was found
+10:07:32.989 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[2]
+10:07:33.001 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[2] ,--- was found
+10:07:33.178 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //button[2]
+10:07:33.204 INFO   manager.MyListener - the element with locator ---> By.xpath: //button[2] ,--- was found
+10:07:33.259 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:07:33.846 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found

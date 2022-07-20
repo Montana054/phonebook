@@ -1,0 +1,16 @@
+13:27:25.605 INFO   manager.AplicationManager - tests start in ChromeDriver
+13:27:26.885 INFO   manager.AplicationManager - The linc is -->https://contacts-app.tobbymarshall815.vercel.app/home
+13:27:26.959 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+13:27:32.036 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+13:27:32.048 INFO   tests.TestBase - sdsd31652@ww.com
+13:27:32.052 INFO   tests.TestBase - INDEX-->1652
+13:27:32.052 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@href='/login']
+13:27:32.084 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@href='/login'] ,--- was found
+13:27:32.236 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[1]
+13:27:32.282 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[1] ,--- was found
+13:27:32.544 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[2]
+13:27:32.569 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[2] ,--- was found
+13:27:32.748 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //button[2]
+13:27:32.787 INFO   manager.MyListener - the element with locator ---> By.xpath: //button[2] ,--- was found
+13:27:32.868 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+13:27:33.645 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found

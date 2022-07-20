@@ -1,0 +1,73 @@
+10:05:11.141 INFO   manager.AplicationManager - tests start in ChromeDriver
+10:05:13.007 INFO   manager.AplicationManager - The linc is -->https://contacts-app.tobbymarshall815.vercel.app/home
+10:05:13.095 INFO   tests.TestBase - start test --->addNewContactSuccess
+10:05:13.103 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:05:18.190 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:05:18.198 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@href='/login']
+10:05:18.350 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@href='/login'] ,--- was found
+10:05:18.557 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[1]
+10:05:18.598 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[1] ,--- was found
+10:05:18.829 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[2]
+10:05:18.858 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[2] ,--- was found
+10:05:19.048 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()=' Login']
+10:05:19.078 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()=' Login'] ,--- was found
+10:05:19.154 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:05:24.215 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:05:24.243 INFO   tests.TestBase - start test --->loginNegariveTestWronPassword
+10:05:24.247 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:05:29.328 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:05:29.329 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@href='/login']
+10:05:29.344 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@href='/login'] ,--- was found
+10:05:29.401 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[1]
+10:05:34.464 INFO   manager.MyListener - We have a 'throwable' ---> no such element: Unable to locate element: {"method":"xpath","selector":"//input[1]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-6CQ3264SSN2', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c5f05639a88a99027e1816c3368f00ed
+*** Element info: {Using=xpath, value=//input[1]}
+10:05:34.471 INFO   manager.MyListener - We have a 'fill In StackTrace' ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[1]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-6CQ3264SSN2', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c5f05639a88a99027e1816c3368f00ed
+*** Element info: {Using=xpath, value=//input[1]}
+10:05:34.925 INFO   manager.MyListener - This is link to screen with problem--->src/test/screenshots/screen-334.png
+10:05:34.947 INFO   tests.TestBase - start test --->loginSuccessNew
+10:05:34.948 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:05:38.409 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:05:38.410 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:05:38.442 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:05:38.504 INFO   tests.TestBase - Test start with email : 'noa@gmail.com' and password 'Nnoa12345$' 
+10:05:38.505 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@href='/login']
+10:05:38.532 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@href='/login'] ,--- was found
+10:05:38.585 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[1]
+10:05:38.608 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[1] ,--- was found
+10:05:38.772 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[2]
+10:05:38.795 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[2] ,--- was found
+10:05:38.943 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()=' Login']
+10:05:38.972 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()=' Login'] ,--- was found
+10:05:39.034 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:05:39.170 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:05:39.173 INFO   tests.TestBase - start test --->registrationSuccess
+10:05:39.175 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:05:39.187 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:05:39.188 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:05:39.202 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found
+10:05:39.268 INFO   tests.TestBase - sdsd3339@ww.com
+10:05:39.271 INFO   tests.TestBase - INDEX-->339
+10:05:39.272 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[@href='/login']
+10:05:39.300 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[@href='/login'] ,--- was found
+10:05:39.342 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[1]
+10:05:39.359 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[1] ,--- was found
+10:05:39.529 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //input[2]
+10:05:39.547 INFO   manager.MyListener - the element with locator ---> By.xpath: //input[2] ,--- was found
+10:05:39.676 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //button[2]
+10:05:39.694 INFO   manager.MyListener - the element with locator ---> By.xpath: //button[2] ,--- was found
+10:05:39.737 INFO   manager.MyListener - 'Start finde' element ---> By.xpath: //*[text()='Sign Out']
+10:05:40.039 INFO   manager.MyListener - the element with locator ---> By.xpath: //*[text()='Sign Out'] ,--- was found

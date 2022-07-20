@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.Users;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -13,10 +14,11 @@ public class LoginTests extends TestBase {
             app.getHelperUser().singOut();
         }
     }
-    @Test
-    public void loginSuccessNew()// для моделс
+    @Test(dataProvider = "validLoginData",dataProviderClass = MyDataProvider.class)
+    public void loginSuccessNew(String email, String password)// для моделс
     {
-        Users users =new Users().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
+        logger.info("Test start with email : "+email+" and password : " +password);
+        Users users =new Users().withEmail(email).withPassword(password);
         app.getHelperUser().openRegLogform();
         app.getHelperUser().fillLogRegForm(users);
         app.getHelperUser().submitLogin();
